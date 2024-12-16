@@ -1,0 +1,105 @@
+.hero {
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: scroll;
+  background-size: cover;
+
+  position: relative;
+  padding: 100px 20px;
+  background-color: #127ce5;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(
+    145deg,
+    rgba(0, 0, 0, 0.85) 0%,
+    rgba(0, 0, 0, 0.7) 75%
+  );
+}
+.content_area {
+  position: relative;
+  z-index: 99;
+  color: #fff;
+}
+.content_area span {
+  margin-top: 20px;
+}
+
+.content_area {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin: 0;
+  flex: 50%;
+  /* justify-content: center;
+  align-items: center;
+  text-align: center; */
+  max-width: 780px;
+  margin: auto;
+}
+.banner_content {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+.banner_image_area {
+  flex-shrink: 1;
+  flex-grow: 0;
+  flex: 50%;
+}
+.banner_image_area img {
+  width: 100%;
+}
+.theme_button {
+  font-family: "Poppins", Sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: none;
+  font-style: normal;
+  text-decoration: none;
+  line-height: 20px;
+  fill: #127ce5;
+  color: #127ce5;
+  background-color: #ffffff;
+  border-style: solid;
+  border-width: 2px 2px 2px 2px;
+  border-color: #ffffff;
+  border-radius: 40px 40px 40px 40px;
+  padding: 20px 40px;
+  transition: all 0.3s ease-in-out;
+}
+.theme_button:hover {
+  background-color: #127ce5;
+  color: #ffffff;
+}
+button.theme_button.no_bg {
+  font-family: "Poppins", Sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: none;
+  font-style: normal;
+  text-decoration: none;
+  line-height: 20px;
+  fill: #ffffff;
+  color: #ffffff;
+  background-color: #007be0;
+  border-style: solid;
+  border-width: 2px 2px 2px 2px;
+  border-color: #ffffff;
+  border-radius: 40px 40px 40px 40px;
+  padding: 20px 40px;
+  transition: all 0.3s ease-in-out;
+}
+button.theme_button.no_bg:hover {
+  background-color: #ffffff;
+  color: #127ce5;
+}
+.button-theme {
+  display: flex;
+  gap: 20px;
+}

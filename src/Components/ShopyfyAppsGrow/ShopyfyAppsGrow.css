@@ -1,0 +1,41 @@
+.shopyfyapp_grow {
+  padding-top: 50px;
+  padding-bottom: 80px;
+  background-color: #f7f7f7;
+}
+.title_section {
+  text-align: center;
+}
+.shopyfyapps_card_section {
+  margin-top: 50px;
+}
+.shopyfyapps_card .card img {
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+}
+
+.shopyfyapps_card_button button {
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.shopyfyapps_card .card h3 {
+  font-size: 22px;
+  margin: 0;
+}
+.shopyfyapps_card {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+.shopyfyapps_card .card {
+  flex: 30%;
+  text-align: center;
+}
+.shopyfyapps_card .card {
+  border: 0;
+  gap: 15px;
+}

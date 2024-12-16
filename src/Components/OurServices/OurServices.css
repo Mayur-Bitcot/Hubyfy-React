@@ -1,0 +1,12 @@
+.OurServices_section {
+  padding: 80px 20px;
+}
+.services_card .card {
+  border: 0;
+  text-align: center;
+  gap: 15px;
+}
+.services_card {
+  display: flex;
+  gap: 40px;
+}
