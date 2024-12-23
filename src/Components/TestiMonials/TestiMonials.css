@@ -1,0 +1,25 @@
+.card_view {
+  display: flex;
+  gap: 15px;
+  padding-top: 20px;
+  flex-wrap: wrap;
+  flex: 70%;
+  /* width: 170%; */
+}
+.card_view img {
+  width: 266px;
+  min-height: 365px;
+}
+.testimonials_section {
+  padding-top: 50px;
+  padding-bottom: 80px;
+  background-color: #f7f7f7;
+}
+.testimonial_slick {
+  min-width: 30%;
+  flex: 30%;
+}
+.testimonials_card {
+  display: flex;
+  align-items: center;
+}

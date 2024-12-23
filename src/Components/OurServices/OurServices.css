@@ -10,3 +10,7 @@
   display: flex;
   gap: 40px;
 }
+.services_card_button {
+  text-align: center;
+  padding-top: 50px;
+}

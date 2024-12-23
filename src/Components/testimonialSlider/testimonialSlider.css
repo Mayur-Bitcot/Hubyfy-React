@@ -1,0 +1,48 @@
+.slick-slide {
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  background-color: #f5f5f5;
+  border: 1px solid #ddd;
+  font-size: 18px;
+  color: #333;
+  border: 0;
+}
+.slick-next {
+  right: -50px;
+  background: black;
+  font-size: 30px;
+  width: 35px;
+  height: 35px;
+  border-radius: 100%;
+}
+.slick-next:hover {
+  background: black;
+}
+.slick-prev {
+  left: -50px;
+  background: black;
+  font-size: 30px;
+  width: 35px;
+  height: 35px;
+  border-radius: 100%;
+}
+.slick-prev:hover,
+.slick-prev:focus,
+.slick-next:hover,
+.slick-next:focus {
+  background: black;
+}
+cite p {
+  margin: 0;
+  font-weight: 600;
+}
+ul.slick-dots {
+  bottom: -50px;
+}
+.slick-dots li button:before {
+  font-size: 10px;
+}
+.slick-dots li {
+  width: 14px;
+}

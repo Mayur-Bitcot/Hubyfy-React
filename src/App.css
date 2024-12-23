@@ -22,3 +22,6 @@ h2 {
   text-decoration: none;
   line-height: 55px;
 }
+button.theme_button.no_bg:hover {
+  border-color: #127ce5;
+}
